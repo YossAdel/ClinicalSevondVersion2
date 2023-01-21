@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04937C15-9F2D-421F-9222-76D5295F2DA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ClinicalSevondVersion</RootNamespace>
+    <AssemblyName>ClinicalSevondVersion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.9, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.9\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Patagames.Ocr, Version=4.5.2.472, Culture=neutral, PublicKeyToken=be14d8e1fe46e570, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tesseract.Net.SDK.4.5.411\lib\net472\Patagames.Ocr.dll</HintPath>
+    </Reference>
+    <Reference Include="SipaaFramework, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SipaaFramework.1.1.0\lib\net46\SipaaFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.5.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAppointment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddAppointment.Designer.cs">
+      <DependentUpon>AddAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DietPlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DietPlan.Designer.cs">
+      <DependentUpon>DietPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Doctor.Designer.cs">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorDashboard.Designer.cs">
+      <DependentUpon>DoctorDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorLogin.Designer.cs">
+      <DependentUpon>DoctorLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoctorProfile.designer.cs">
+      <DependentUpon>DoctorProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorRemove.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoctorRemove.Designer.cs">
+      <DependentUpon>DoctorRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoctorSchedule.designer.cs">
+      <DependentUpon>DoctorSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoctorSearch.designer.cs">
+      <DependentUpon>DoctorSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoctorSetting.designer.cs">
+      <DependentUpon>DoctorSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorSignUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoctorSignUp.Designer.cs">
+      <DependentUpon>DoctorSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoctorUpdate.Designer.cs">
+      <DependentUpon>DoctorUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ocr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ocr.Designer.cs">
+      <DependentUpon>Ocr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Patient.Designer.cs">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientDashboard.Designer.cs">
+      <DependentUpon>PatientDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientForm.Designer.cs">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientRemove.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientRemove.Designer.cs">
+      <DependentUpon>PatientRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientSchedule.Designer.cs">
+      <DependentUpon>PatientSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientSignUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientSignUp.Designer.cs">
+      <DependentUpon>PatientSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientUpdate.Designer.cs">
+      <DependentUpon>PatientUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prescription.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Prescription.designer.cs">
+      <DependentUpon>Prescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReciptionestDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReciptionestDashboard.Designer.cs">
+      <DependentUpon>ReciptionestDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReciptionestUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReciptionestUpdate.Designer.cs">
+      <DependentUpon>ReciptionestUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reciptionist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reciptionist.Designer.cs">
+      <DependentUpon>Reciptionist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReciptionistFinance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReciptionistFinance.Designer.cs">
+      <DependentUpon>ReciptionistFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reciptionistRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reciptionistRegistration.Designer.cs">
+      <DependentUpon>reciptionistRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReciptionistRemove.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReciptionistRemove.Designer.cs">
+      <DependentUpon>ReciptionistRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReciptionSignUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReciptionSignUp.Designer.cs">
+      <DependentUpon>ReciptionSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAppointment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewAppointment.Designer.cs">
+      <DependentUpon>ViewAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDoctorSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewDoctorSchedule.Designer.cs">
+      <DependentUpon>ViewDoctorSchedule.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddAppointment.resx">
+      <DependentUpon>AddAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DietPlan.resx">
+      <DependentUpon>DietPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor.resx">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorDashboard.resx">
+      <DependentUpon>DoctorDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorDashboard.sq.resx">
+      <DependentUpon>DoctorDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorLogin.resx">
+      <DependentUpon>DoctorLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorProfile.resx">
+      <DependentUpon>DoctorProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorRemove.resx">
+      <DependentUpon>DoctorRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorSchedule.resx">
+      <DependentUpon>DoctorSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorSearch.resx">
+      <DependentUpon>DoctorSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorSetting.resx">
+      <DependentUpon>DoctorSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorSignUp.resx">
+      <DependentUpon>DoctorSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorUpdate.resx">
+      <DependentUpon>DoctorUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ocr.resx">
+      <DependentUpon>Ocr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient.resx">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientDashboard.resx">
+      <DependentUpon>PatientDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientForm.resx">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientRemove.resx">
+      <DependentUpon>PatientRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientSchedule.resx">
+      <DependentUpon>PatientSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientSignUp.resx">
+      <DependentUpon>PatientSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientUpdate.resx">
+      <DependentUpon>PatientUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prescription.resx">
+      <DependentUpon>Prescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReciptionestDashboard.resx">
+      <DependentUpon>ReciptionestDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReciptionestUpdate.resx">
+      <DependentUpon>ReciptionestUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reciptionist.resx">
+      <DependentUpon>Reciptionist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReciptionistFinance.resx">
+      <DependentUpon>ReciptionistFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reciptionistRegistration.resx">
+      <DependentUpon>reciptionistRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReciptionistRemove.resx">
+      <DependentUpon>ReciptionistRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReciptionSignUp.resx">
+      <DependentUpon>ReciptionSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAppointment.resx">
+      <DependentUpon>ViewAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDoctorSchedule.resx">
+      <DependentUpon>ViewDoctorSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="tessdata\configs\config.cfg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\eng.traineddata">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\equ.traineddata">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\osd.traineddata">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\pdf.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\pdf.ttx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drugs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-page %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receptionist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light-color-background-images-for-website-top-hd-images-for-free-background-for-website-in-light-color-1-1024x640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salad55.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logox.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Tesseract.Net.SDK.4.5.411\build\Tesseract.Net.SDK.targets" Condition="Exists('..\packages\Tesseract.Net.SDK.4.5.411\build\Tesseract.Net.SDK.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Tesseract.Net.SDK.4.5.411\build\Tesseract.Net.SDK.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Tesseract.Net.SDK.4.5.411\build\Tesseract.Net.SDK.targets'))" />
+  </Target>
+</Project>
