@@ -37,11 +37,11 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dietPlan1 = new ClinicalSevondVersion.DietPlan();
             this.doctorSchedule1 = new ClinicalInformatics_2023.DoctorSchedule();
             this.prescription1 = new ClinicalInformatics_2023.Prescription();
             this.doctorSetting1 = new ClinicalInformatics_2023.DoctorSetting();
             this.doctorSearch1 = new ClinicalInformatics_2023.DoctorSearch();
+            this.dietPlan1 = new ClinicalSevondVersion.DietPlan();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -163,21 +163,16 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
-            // dietPlan1
-            // 
-            resources.ApplyResources(this.dietPlan1, "dietPlan1");
-            this.dietPlan1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
-            this.dietPlan1.Name = "dietPlan1";
-            this.dietPlan1.Load += new System.EventHandler(this.dietPlan1_Load);
-            // 
             // doctorSchedule1
             // 
+            this.doctorSchedule1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             resources.ApplyResources(this.doctorSchedule1, "doctorSchedule1");
             this.doctorSchedule1.Name = "doctorSchedule1";
             this.doctorSchedule1.Load += new System.EventHandler(this.doctorSchedule1_Load);
             // 
             // prescription1
             // 
+            this.prescription1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             resources.ApplyResources(this.prescription1, "prescription1");
             this.prescription1.Name = "prescription1";
             // 
@@ -192,6 +187,13 @@
             this.doctorSearch1.BackColor = System.Drawing.Color.Tomato;
             resources.ApplyResources(this.doctorSearch1, "doctorSearch1");
             this.doctorSearch1.Name = "doctorSearch1";
+            // 
+            // dietPlan1
+            // 
+            resources.ApplyResources(this.dietPlan1, "dietPlan1");
+            this.dietPlan1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
+            this.dietPlan1.Name = "dietPlan1";
+            this.dietPlan1.Load += new System.EventHandler(this.dietPlan1_Load);
             // 
             // DoctorDashboard
             // 

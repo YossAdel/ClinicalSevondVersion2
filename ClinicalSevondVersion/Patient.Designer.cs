@@ -148,10 +148,10 @@
             // 
             this.patientForm1.AutoScroll = true;
             this.patientForm1.AutoScrollMargin = new System.Drawing.Size(0, 10);
-            this.patientForm1.BackColor = System.Drawing.Color.White;
-            this.patientForm1.Location = new System.Drawing.Point(0, 73);
+            this.patientForm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
+            this.patientForm1.Location = new System.Drawing.Point(0, 64);
             this.patientForm1.Name = "patientForm1";
-            this.patientForm1.Size = new System.Drawing.Size(780, 658);
+            this.patientForm1.Size = new System.Drawing.Size(780, 667);
             this.patientForm1.TabIndex = 11;
             // 
             // patientRemove1

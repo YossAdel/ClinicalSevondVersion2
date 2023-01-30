@@ -196,8 +196,7 @@
             // 
             // doctorSetting1
             // 
-            this.doctorSetting1.BackColor = System.Drawing.Color.Transparent;
-            this.doctorSetting1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("doctorSetting1.BackgroundImage")));
+            this.doctorSetting1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.doctorSetting1.Location = new System.Drawing.Point(221, 3);
             this.doctorSetting1.Name = "doctorSetting1";
             this.doctorSetting1.Size = new System.Drawing.Size(670, 611);

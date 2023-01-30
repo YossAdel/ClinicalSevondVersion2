@@ -69,7 +69,7 @@
             "Ali"});
             this.nursing.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.nursing.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.nursing.BackColor = System.Drawing.Color.White;
+            this.nursing.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.nursing.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nursing.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nursing.Location = new System.Drawing.Point(361, 325);
@@ -97,7 +97,7 @@
             "Ali"});
             this.Dr.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.Dr.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.Dr.BackColor = System.Drawing.Color.White;
+            this.Dr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.Dr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Dr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dr.Location = new System.Drawing.Point(361, 288);
@@ -125,7 +125,7 @@
             "Ali"});
             this.therapeutic.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.therapeutic.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.therapeutic.BackColor = System.Drawing.Color.White;
+            this.therapeutic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.therapeutic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.therapeutic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.therapeutic.Location = new System.Drawing.Point(361, 400);
@@ -153,7 +153,7 @@
             "Ali"});
             this.medicine.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.medicine.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.medicine.BackColor = System.Drawing.Color.White;
+            this.medicine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.medicine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.medicine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.medicine.Location = new System.Drawing.Point(361, 363);
@@ -210,7 +210,7 @@
             "Ali"});
             this.others.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.others.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.others.BackColor = System.Drawing.Color.White;
+            this.others.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.others.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.others.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.others.Location = new System.Drawing.Point(361, 446);
@@ -253,7 +253,7 @@
             "Ali"});
             this.Name.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.Name.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.Name.BackColor = System.Drawing.Color.White;
+            this.Name.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.Name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name.Location = new System.Drawing.Point(490, 233);
@@ -281,7 +281,7 @@
             "Ali"});
             this.PID.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.PID.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.PID.BackColor = System.Drawing.Color.White;
+            this.PID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.PID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PID.Location = new System.Drawing.Point(278, 238);
@@ -305,7 +305,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::ClinicalSevondVersion.Properties.Resources.back;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.Controls.Add(this.PID);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.Name);

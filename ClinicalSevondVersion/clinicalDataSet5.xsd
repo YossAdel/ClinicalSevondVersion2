@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="clinicalDataSet5" targetNamespace="http://tempuri.org/clinicalDataSet5.xsd" xmlns:mstns="http://tempuri.org/clinicalDataSet5.xsd" xmlns="http://tempuri.org/clinicalDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="clinicalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="clinicalConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ClinicalSevondVersion.Properties.Settings.GlobalReference.Default.clinicalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="form3TableAdapter" GeneratorDataComponentClassName="form3TableAdapter" Name="form3" UserDataComponentName="form3TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="clinicalConnectionString (Settings)" DbObjectName="clinical.dbo.form3" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT DiseaseNotFound, BloodType, Exercise, Chronic, AreYouDietingYes, AreYouDietingNo, SaltHi, SaltMed, SaltLow, FatHi, FatMed, FatLow, PregnantYes, PregnantNo, DcYes, DcNo, UterineYes, UterineNo, BloodyYes, BloodNo, FellPainYes, FellPainNo, physicianYes, physicianNo FROM dbo.form3</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DiseaseNotFound" DataSetColumn="DiseaseNotFound" />
+              <Mapping SourceColumn="BloodType" DataSetColumn="BloodType" />
+              <Mapping SourceColumn="Exercise" DataSetColumn="Exercise" />
+              <Mapping SourceColumn="Chronic" DataSetColumn="Chronic" />
+              <Mapping SourceColumn="AreYouDietingYes" DataSetColumn="AreYouDietingYes" />
+              <Mapping SourceColumn="AreYouDietingNo" DataSetColumn="AreYouDietingNo" />
+              <Mapping SourceColumn="SaltHi" DataSetColumn="SaltHi" />
+              <Mapping SourceColumn="SaltMed" DataSetColumn="SaltMed" />
+              <Mapping SourceColumn="SaltLow" DataSetColumn="SaltLow" />
+              <Mapping SourceColumn="FatHi" DataSetColumn="FatHi" />
+              <Mapping SourceColumn="FatMed" DataSetColumn="FatMed" />
+              <Mapping SourceColumn="FatLow" DataSetColumn="FatLow" />
+              <Mapping SourceColumn="PregnantYes" DataSetColumn="PregnantYes" />
+              <Mapping SourceColumn="PregnantNo" DataSetColumn="PregnantNo" />
+              <Mapping SourceColumn="DcYes" DataSetColumn="DcYes" />
+              <Mapping SourceColumn="DcNo" DataSetColumn="DcNo" />
+              <Mapping SourceColumn="UterineYes" DataSetColumn="UterineYes" />
+              <Mapping SourceColumn="UterineNo" DataSetColumn="UterineNo" />
+              <Mapping SourceColumn="BloodyYes" DataSetColumn="BloodyYes" />
+              <Mapping SourceColumn="BloodNo" DataSetColumn="BloodNo" />
+              <Mapping SourceColumn="FellPainYes" DataSetColumn="FellPainYes" />
+              <Mapping SourceColumn="FellPainNo" DataSetColumn="FellPainNo" />
+              <Mapping SourceColumn="physicianYes" DataSetColumn="physicianYes" />
+              <Mapping SourceColumn="physicianNo" DataSetColumn="physicianNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="clinicalDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="clinicalDataSet5" msprop:Generator_DataSetName="clinicalDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="form3" msprop:Generator_RowEvHandlerName="form3RowChangeEventHandler" msprop:Generator_RowDeletedName="form3RowDeleted" msprop:Generator_RowDeletingName="form3RowDeleting" msprop:Generator_RowEvArgName="form3RowChangeEvent" msprop:Generator_TablePropName="form3" msprop:Generator_RowChangedName="form3RowChanged" msprop:Generator_RowChangingName="form3RowChanging" msprop:Generator_TableClassName="form3DataTable" msprop:Generator_RowClassName="form3Row" msprop:Generator_TableVarName="tableform3" msprop:Generator_UserTableName="form3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DiseaseNotFound" msprop:Generator_ColumnPropNameInRow="DiseaseNotFound" msprop:Generator_ColumnPropNameInTable="DiseaseNotFoundColumn" msprop:Generator_ColumnVarNameInTable="columnDiseaseNotFound" msprop:Generator_UserColumnName="DiseaseNotFound" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BloodType" msprop:Generator_ColumnPropNameInRow="BloodType" msprop:Generator_ColumnPropNameInTable="BloodTypeColumn" msprop:Generator_ColumnVarNameInTable="columnBloodType" msprop:Generator_UserColumnName="BloodType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Exercise" msprop:Generator_ColumnPropNameInRow="Exercise" msprop:Generator_ColumnPropNameInTable="ExerciseColumn" msprop:Generator_ColumnVarNameInTable="columnExercise" msprop:Generator_UserColumnName="Exercise" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Chronic" msprop:Generator_ColumnPropNameInRow="Chronic" msprop:Generator_ColumnPropNameInTable="ChronicColumn" msprop:Generator_ColumnVarNameInTable="columnChronic" msprop:Generator_UserColumnName="Chronic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AreYouDietingYes" msprop:Generator_ColumnPropNameInRow="AreYouDietingYes" msprop:Generator_ColumnPropNameInTable="AreYouDietingYesColumn" msprop:Generator_ColumnVarNameInTable="columnAreYouDietingYes" msprop:Generator_UserColumnName="AreYouDietingYes" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AreYouDietingNo" msprop:Generator_ColumnPropNameInRow="AreYouDietingNo" msprop:Generator_ColumnPropNameInTable="AreYouDietingNoColumn" msprop:Generator_ColumnVarNameInTable="columnAreYouDietingNo" msprop:Generator_UserColumnName="AreYouDietingNo" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SaltHi" msprop:Generator_ColumnPropNameInRow="SaltHi" msprop:Generator_ColumnPropNameInTable="SaltHiColumn" msprop:Generator_ColumnVarNameInTable="columnSaltHi" msprop:Generator_UserColumnName="SaltHi" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SaltMed" msprop:Generator_ColumnPropNameInRow="SaltMed" msprop:Generator_ColumnPropNameInTable="SaltMedColumn" msprop:Generator_ColumnVarNameInTable="columnSaltMed" msprop:Generator_UserColumnName="SaltMed" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SaltLow" msprop:Generator_ColumnPropNameInRow="SaltLow" msprop:Generator_ColumnPropNameInTable="SaltLowColumn" msprop:Generator_ColumnVarNameInTable="columnSaltLow" msprop:Generator_UserColumnName="SaltLow" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FatHi" msprop:Generator_ColumnPropNameInRow="FatHi" msprop:Generator_ColumnPropNameInTable="FatHiColumn" msprop:Generator_ColumnVarNameInTable="columnFatHi" msprop:Generator_UserColumnName="FatHi" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FatMed" msprop:Generator_ColumnPropNameInRow="FatMed" msprop:Generator_ColumnPropNameInTable="FatMedColumn" msprop:Generator_ColumnVarNameInTable="columnFatMed" msprop:Generator_UserColumnName="FatMed" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FatLow" msprop:Generator_ColumnPropNameInRow="FatLow" msprop:Generator_ColumnPropNameInTable="FatLowColumn" msprop:Generator_ColumnVarNameInTable="columnFatLow" msprop:Generator_UserColumnName="FatLow" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PregnantYes" msprop:Generator_ColumnPropNameInRow="PregnantYes" msprop:Generator_ColumnPropNameInTable="PregnantYesColumn" msprop:Generator_ColumnVarNameInTable="columnPregnantYes" msprop:Generator_UserColumnName="PregnantYes" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PregnantNo" msprop:Generator_ColumnPropNameInRow="PregnantNo" msprop:Generator_ColumnPropNameInTable="PregnantNoColumn" msprop:Generator_ColumnVarNameInTable="columnPregnantNo" msprop:Generator_UserColumnName="PregnantNo" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DcYes" msprop:Generator_ColumnPropNameInRow="DcYes" msprop:Generator_ColumnPropNameInTable="DcYesColumn" msprop:Generator_ColumnVarNameInTable="columnDcYes" msprop:Generator_UserColumnName="DcYes" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DcNo" msprop:Generator_ColumnPropNameInRow="DcNo" msprop:Generator_ColumnPropNameInTable="DcNoColumn" msprop:Generator_ColumnVarNameInTable="columnDcNo" msprop:Generator_UserColumnName="DcNo" type="xs:boolean" minOccurs="0" />
+              <xs:element name="UterineYes" msprop:Generator_ColumnPropNameInRow="UterineYes" msprop:Generator_ColumnPropNameInTable="UterineYesColumn" msprop:Generator_ColumnVarNameInTable="columnUterineYes" msprop:Generator_UserColumnName="UterineYes" type="xs:boolean" minOccurs="0" />
+              <xs:element name="UterineNo" msprop:Generator_ColumnPropNameInRow="UterineNo" msprop:Generator_ColumnPropNameInTable="UterineNoColumn" msprop:Generator_ColumnVarNameInTable="columnUterineNo" msprop:Generator_UserColumnName="UterineNo" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BloodyYes" msprop:Generator_ColumnPropNameInRow="BloodyYes" msprop:Generator_ColumnPropNameInTable="BloodyYesColumn" msprop:Generator_ColumnVarNameInTable="columnBloodyYes" msprop:Generator_UserColumnName="BloodyYes" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BloodNo" msprop:Generator_ColumnPropNameInRow="BloodNo" msprop:Generator_ColumnPropNameInTable="BloodNoColumn" msprop:Generator_ColumnVarNameInTable="columnBloodNo" msprop:Generator_UserColumnName="BloodNo" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FellPainYes" msprop:Generator_ColumnPropNameInRow="FellPainYes" msprop:Generator_ColumnPropNameInTable="FellPainYesColumn" msprop:Generator_ColumnVarNameInTable="columnFellPainYes" msprop:Generator_UserColumnName="FellPainYes" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FellPainNo" msprop:Generator_ColumnPropNameInRow="FellPainNo" msprop:Generator_ColumnPropNameInTable="FellPainNoColumn" msprop:Generator_ColumnVarNameInTable="columnFellPainNo" msprop:Generator_UserColumnName="FellPainNo" type="xs:boolean" minOccurs="0" />
+              <xs:element name="physicianYes" msprop:Generator_ColumnPropNameInRow="physicianYes" msprop:Generator_ColumnPropNameInTable="physicianYesColumn" msprop:Generator_ColumnVarNameInTable="columnphysicianYes" msprop:Generator_UserColumnName="physicianYes" type="xs:boolean" minOccurs="0" />
+              <xs:element name="physicianNo" msprop:Generator_ColumnPropNameInRow="physicianNo" msprop:Generator_ColumnPropNameInTable="physicianNoColumn" msprop:Generator_ColumnVarNameInTable="columnphysicianNo" msprop:Generator_UserColumnName="physicianNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -31,11 +31,8 @@ namespace ClinicalSevondVersion
             if (dt.Rows.Count > 0)
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("UPDATE form3 SET FirstName=@FirstName,SecondName=@SecondName,Email=@Email," +
-                    "Phone=@Phone," +
-                    "Weight=@Weight,Height=@Height WHERE NationalID=@NationalID ", conn);
-                cmd.Parameters.AddWithValue("@FirstName", textBox3.Text);
-                cmd.Parameters.AddWithValue("@SecondName", textBox1.Text);
+                SqlCommand cmd = new SqlCommand("UPDATE form3 SET Email=@Email,Phone=@Phone ,Weight=@Weight,Height=@Height WHERE NationalID=@NationalID ", conn);
+               
                 cmd.Parameters.AddWithValue("@NationalID", int.Parse(textBox2.Text));
                 cmd.Parameters.AddWithValue("@Email", textBox4.Text);
                 cmd.Parameters.AddWithValue("@Phone", textBox5.Text);

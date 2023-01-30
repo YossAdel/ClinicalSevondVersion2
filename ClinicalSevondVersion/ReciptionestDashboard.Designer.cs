@@ -39,8 +39,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.patient1 = new ClinicalSevondVersion.Patient();
             this.reciptionist1 = new ClinicalSevondVersion.Reciptionist();
+            this.patient1 = new ClinicalSevondVersion.Patient();
             this.doctor4 = new ClinicalSevondVersion.Doctor();
             this.doctorSetting1 = new ClinicalInformatics_2023.DoctorSetting();
             this.patient2 = new ClinicalSevondVersion.Patient();
@@ -190,14 +190,6 @@
             this.guna2Button1.Text = "OCR";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // patient1
-            // 
-            this.patient1.BackgroundImage = global::ClinicalSevondVersion.Properties.Resources.back;
-            this.patient1.Location = new System.Drawing.Point(226, 0);
-            this.patient1.Name = "patient1";
-            this.patient1.Size = new System.Drawing.Size(783, 734);
-            this.patient1.TabIndex = 2;
-            // 
             // reciptionist1
             // 
             this.reciptionist1.BackgroundImage = global::ClinicalSevondVersion.Properties.Resources.back;
@@ -205,6 +197,14 @@
             this.reciptionist1.Name = "reciptionist1";
             this.reciptionist1.Size = new System.Drawing.Size(783, 734);
             this.reciptionist1.TabIndex = 1;
+            // 
+            // patient1
+            // 
+            this.patient1.BackgroundImage = global::ClinicalSevondVersion.Properties.Resources.back;
+            this.patient1.Location = new System.Drawing.Point(226, 0);
+            this.patient1.Name = "patient1";
+            this.patient1.Size = new System.Drawing.Size(783, 734);
+            this.patient1.TabIndex = 2;
             // 
             // doctor4
             // 
@@ -233,6 +233,7 @@
             // 
             // ocr1
             // 
+            this.ocr1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.ocr1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ocr1.BackgroundImage")));
             this.ocr1.Location = new System.Drawing.Point(226, 0);
             this.ocr1.Name = "ocr1";
@@ -277,9 +278,9 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Reciptionist reciptionist1;
         private Patient patient1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Doctor doctor4;
         private ClinicalInformatics_2023.DoctorSetting doctorSetting1;
         private Patient patient2;

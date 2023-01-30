@@ -155,6 +155,7 @@
             this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.ForeColor = System.Drawing.SystemColors.GrayText;
@@ -181,6 +182,7 @@
             this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.ForeColor = System.Drawing.SystemColors.GrayText;
@@ -206,6 +208,7 @@
             this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox3.ForeColor = System.Drawing.Color.Gray;
@@ -237,7 +240,7 @@
             this.guna2DateTimePicker1.BorderRadius = 15;
             this.guna2DateTimePicker1.BorderThickness = 1;
             this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
+            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.Black;
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
@@ -288,7 +291,7 @@
             this.ChechFemale.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.ChechFemale.UncheckedState.BorderRadius = 0;
             this.ChechFemale.UncheckedState.BorderThickness = 1;
-            this.ChechFemale.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.ChechFemale.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.ChechFemale.UseVisualStyleBackColor = false;
             this.ChechFemale.CheckedChanged += new System.EventHandler(this.ChechFemale_CheckedChanged);
             // 
@@ -310,7 +313,7 @@
             this.CheckMale.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckMale.UncheckedState.BorderRadius = 0;
             this.CheckMale.UncheckedState.BorderThickness = 1;
-            this.CheckMale.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckMale.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckMale.UseVisualStyleBackColor = false;
             this.CheckMale.CheckedChanged += new System.EventHandler(this.CheckMale_CheckedChanged);
             // 
@@ -336,6 +339,7 @@
             this.Address.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Address.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Address.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Address.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.Address.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Address.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Address.ForeColor = System.Drawing.Color.Gray;
@@ -372,6 +376,7 @@
             this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox5.ForeColor = System.Drawing.Color.Gray;
@@ -398,6 +403,7 @@
             this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox6.ForeColor = System.Drawing.Color.Gray;
@@ -425,8 +431,9 @@
             // 
             this.comboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox3.BackColor = System.Drawing.SystemColors.Window;
+            this.comboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.comboBox3.DropDownWidth = 430;
+            this.comboBox3.ForeColor = System.Drawing.Color.Black;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "Sedentary ",
@@ -461,6 +468,7 @@
             this.guna2TextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.guna2TextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -487,9 +495,10 @@
             // 
             this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox2.BackColor = System.Drawing.SystemColors.Window;
+            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.comboBox2.DropDownHeight = 150;
             this.comboBox2.DropDownWidth = 235;
+            this.comboBox2.ForeColor = System.Drawing.Color.Black;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.IntegralHeight = false;
             this.comboBox2.Items.AddRange(new object[] {
@@ -526,7 +535,7 @@
             // 
             this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "A+",
@@ -564,6 +573,7 @@
             this.height.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.height.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.height.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.height.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.height.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.height.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.height.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -597,6 +607,7 @@
             this.weight.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.weight.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.weight.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.weight.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.weight.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.weight.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.weight.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -636,7 +647,7 @@
             this.CheckHi2.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckHi2.UncheckedState.BorderRadius = 0;
             this.CheckHi2.UncheckedState.BorderThickness = 1;
-            this.CheckHi2.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckHi2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckHi2.UseVisualStyleBackColor = false;
             this.CheckHi2.CheckedChanged += new System.EventHandler(this.CheckHi2_CheckedChanged);
             // 
@@ -657,7 +668,7 @@
             this.CheckLow2.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckLow2.UncheckedState.BorderRadius = 0;
             this.CheckLow2.UncheckedState.BorderThickness = 1;
-            this.CheckLow2.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckLow2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckLow2.UseVisualStyleBackColor = false;
             this.CheckLow2.CheckedChanged += new System.EventHandler(this.CheckLow2_CheckedChanged);
             // 
@@ -669,6 +680,7 @@
             this.CheckMed2.CheckedState.BorderRadius = 0;
             this.CheckMed2.CheckedState.BorderThickness = 0;
             this.CheckMed2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CheckMed2.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckMed2.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CheckMed2.Location = new System.Drawing.Point(543, 968);
             this.CheckMed2.Name = "CheckMed2";
@@ -678,7 +690,7 @@
             this.CheckMed2.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckMed2.UncheckedState.BorderRadius = 0;
             this.CheckMed2.UncheckedState.BorderThickness = 1;
-            this.CheckMed2.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckMed2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckMed2.UseVisualStyleBackColor = false;
             this.CheckMed2.CheckedChanged += new System.EventHandler(this.CheckMed2_CheckedChanged);
             // 
@@ -699,7 +711,7 @@
             this.CheckHi1.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckHi1.UncheckedState.BorderRadius = 0;
             this.CheckHi1.UncheckedState.BorderThickness = 1;
-            this.CheckHi1.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckHi1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckHi1.UseVisualStyleBackColor = false;
             this.CheckHi1.CheckedChanged += new System.EventHandler(this.CheckHi1_CheckedChanged);
             // 
@@ -720,7 +732,7 @@
             this.CheckLow1.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckLow1.UncheckedState.BorderRadius = 0;
             this.CheckLow1.UncheckedState.BorderThickness = 1;
-            this.CheckLow1.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckLow1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckLow1.UseVisualStyleBackColor = false;
             this.CheckLow1.CheckedChanged += new System.EventHandler(this.CheckLow1_CheckedChanged);
             // 
@@ -741,7 +753,7 @@
             this.CheckMed1.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckMed1.UncheckedState.BorderRadius = 0;
             this.CheckMed1.UncheckedState.BorderThickness = 1;
-            this.CheckMed1.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckMed1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckMed1.UseVisualStyleBackColor = false;
             this.CheckMed1.CheckedChanged += new System.EventHandler(this.CheckMed1_CheckedChanged);
             // 
@@ -762,7 +774,7 @@
             this.CheckNo2.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckNo2.UncheckedState.BorderRadius = 0;
             this.CheckNo2.UncheckedState.BorderThickness = 1;
-            this.CheckNo2.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckNo2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckNo2.UseVisualStyleBackColor = false;
             this.CheckNo2.CheckedChanged += new System.EventHandler(this.CheckNo2_CheckedChanged);
             // 
@@ -783,7 +795,7 @@
             this.CheckYes2.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckYes2.UncheckedState.BorderRadius = 0;
             this.CheckYes2.UncheckedState.BorderThickness = 1;
-            this.CheckYes2.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckYes2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckYes2.UseVisualStyleBackColor = false;
             this.CheckYes2.CheckedChanged += new System.EventHandler(this.CheckYes2_CheckedChanged);
             // 
@@ -804,7 +816,7 @@
             this.CheckNo1.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckNo1.UncheckedState.BorderRadius = 0;
             this.CheckNo1.UncheckedState.BorderThickness = 1;
-            this.CheckNo1.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckNo1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckNo1.UseVisualStyleBackColor = false;
             this.CheckNo1.CheckedChanged += new System.EventHandler(this.CheckNo1_CheckedChanged);
             // 
@@ -825,7 +837,7 @@
             this.CheckYes1.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckYes1.UncheckedState.BorderRadius = 0;
             this.CheckYes1.UncheckedState.BorderThickness = 1;
-            this.CheckYes1.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckYes1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckYes1.UseVisualStyleBackColor = false;
             this.CheckYes1.CheckedChanged += new System.EventHandler(this.CheckYes1_CheckedChanged);
             // 
@@ -866,7 +878,7 @@
             this.CheckNo7.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckNo7.UncheckedState.BorderRadius = 0;
             this.CheckNo7.UncheckedState.BorderThickness = 1;
-            this.CheckNo7.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckNo7.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckNo7.UseVisualStyleBackColor = false;
             this.CheckNo7.CheckedChanged += new System.EventHandler(this.CheckNo7_CheckedChanged);
             // 
@@ -887,7 +899,7 @@
             this.CheckYes7.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckYes7.UncheckedState.BorderRadius = 0;
             this.CheckYes7.UncheckedState.BorderThickness = 1;
-            this.CheckYes7.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckYes7.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckYes7.UseVisualStyleBackColor = false;
             this.CheckYes7.CheckedChanged += new System.EventHandler(this.CheckYes7_CheckedChanged);
             // 
@@ -908,7 +920,7 @@
             this.CheckNo6.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckNo6.UncheckedState.BorderRadius = 0;
             this.CheckNo6.UncheckedState.BorderThickness = 1;
-            this.CheckNo6.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckNo6.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckNo6.UseVisualStyleBackColor = false;
             this.CheckNo6.CheckedChanged += new System.EventHandler(this.CheckNo6_CheckedChanged);
             // 
@@ -929,7 +941,7 @@
             this.CheckYes6.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckYes6.UncheckedState.BorderRadius = 0;
             this.CheckYes6.UncheckedState.BorderThickness = 1;
-            this.CheckYes6.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckYes6.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckYes6.UseVisualStyleBackColor = false;
             this.CheckYes6.CheckedChanged += new System.EventHandler(this.CheckYes6_CheckedChanged);
             // 
@@ -950,7 +962,7 @@
             this.CheckNo5.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckNo5.UncheckedState.BorderRadius = 0;
             this.CheckNo5.UncheckedState.BorderThickness = 1;
-            this.CheckNo5.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckNo5.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckNo5.UseVisualStyleBackColor = false;
             this.CheckNo5.CheckedChanged += new System.EventHandler(this.CheckNo5_CheckedChanged);
             // 
@@ -971,7 +983,7 @@
             this.CheckYes5.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckYes5.UncheckedState.BorderRadius = 0;
             this.CheckYes5.UncheckedState.BorderThickness = 1;
-            this.CheckYes5.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckYes5.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckYes5.UseVisualStyleBackColor = false;
             this.CheckYes5.CheckedChanged += new System.EventHandler(this.CheckYes5_CheckedChanged);
             // 
@@ -1043,7 +1055,7 @@
             this.CheckNo4.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckNo4.UncheckedState.BorderRadius = 0;
             this.CheckNo4.UncheckedState.BorderThickness = 1;
-            this.CheckNo4.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckNo4.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckNo4.UseVisualStyleBackColor = false;
             this.CheckNo4.CheckedChanged += new System.EventHandler(this.CheckNo4_CheckedChanged);
             // 
@@ -1064,7 +1076,7 @@
             this.CheckYes4.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckYes4.UncheckedState.BorderRadius = 0;
             this.CheckYes4.UncheckedState.BorderThickness = 1;
-            this.CheckYes4.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckYes4.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckYes4.UseVisualStyleBackColor = false;
             this.CheckYes4.CheckedChanged += new System.EventHandler(this.CheckYes4_CheckedChanged);
             // 
@@ -1085,7 +1097,7 @@
             this.CheckNo3.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckNo3.UncheckedState.BorderRadius = 0;
             this.CheckNo3.UncheckedState.BorderThickness = 1;
-            this.CheckNo3.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckNo3.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckNo3.UseVisualStyleBackColor = false;
             this.CheckNo3.CheckedChanged += new System.EventHandler(this.CheckNo3_CheckedChanged);
             // 
@@ -1106,7 +1118,7 @@
             this.CheckYes3.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.CheckYes3.UncheckedState.BorderRadius = 0;
             this.CheckYes3.UncheckedState.BorderThickness = 1;
-            this.CheckYes3.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.CheckYes3.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.CheckYes3.UseVisualStyleBackColor = false;
             this.CheckYes3.CheckedChanged += new System.EventHandler(this.CheckYes3_CheckedChanged);
             // 
@@ -1228,7 +1240,7 @@
             this.terms.UncheckedState.BorderColor = System.Drawing.Color.Black;
             this.terms.UncheckedState.BorderRadius = 0;
             this.terms.UncheckedState.BorderThickness = 1;
-            this.terms.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.terms.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.terms.UseVisualStyleBackColor = false;
             // 
             // label28
@@ -1249,7 +1261,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 10);
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(216)))), ((int)(((byte)(227)))));
             this.Controls.Add(this.label28);
             this.Controls.Add(this.terms);
             this.Controls.Add(this.button2);
@@ -1303,7 +1315,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "PatientForm";
-            this.Size = new System.Drawing.Size(663, 691);
+            this.Size = new System.Drawing.Size(693, 657);
             this.Load += new System.EventHandler(this.PatientForm_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

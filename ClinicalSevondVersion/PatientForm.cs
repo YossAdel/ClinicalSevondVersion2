@@ -364,6 +364,7 @@ namespace ClinicalSevondVersion
 
         private void button2_Click(object sender, EventArgs e)
         {
+            int currentage = DateTime.Today.Year - guna2DateTimePicker1.Value.Year;
             //SELECT * from form2 where NationalID like 'Adam' AND password like '123456';
             conn.Open();
             SqlCommand cmd1 = new SqlCommand("SELECT * from form3 WHERE NationalID='" + guna2TextBox6.Text + "'", conn);
@@ -414,7 +415,7 @@ namespace ClinicalSevondVersion
                     SqlCommand cmd = new SqlCommand("insert into form3 values(@NationalID,@FirstName,@SecondName,@Date,@Phone,@Email,@Weight,@Height,@Address,@DiseaseNotFound," +
                         "@BloodType,@Exercise,@chronic," +
                         "@AreYouDietingYes,@AreYouDietingNo,@physicianYes,@physicianNo,@SaltHi,@SaltMed,@SaltLow,@FatHi,@FatMed,@FatLow,@PregnantYes,@PregnantNo,@DcYes,@DcNo," +
-                        "@UterineYes,@UterineNo,@BloodyYes,@BloodNo,@FellPainYes,@FellPainNo,@Terms,@Male,@Female)", conn);
+                        "@UterineYes,@UterineNo,@BloodyYes,@BloodNo,@FellPainYes,@FellPainNo,@Terms,@Male,@Female,@Age)", conn);
                     //NationalID	FirstName	SecondName	Email	Phone	BirthDate	Address	Male	Female	Weight	Height	BloodType	Exercise	
                     //Diseases	DiseaseNotFound	DietYes	DietYes	PrescriptionYes	PrescriptionNO	SaltHi	SaltMed	SaltLow	FatHi	FatMed	FatLow	
                     //PregnantYes	PregnantNo	DcYes	DcNo	UtirineYes	UterineNo	BloodYes	BloodNo	PainYes	PainNO	Terms	ID
@@ -457,6 +458,7 @@ namespace ClinicalSevondVersion
                     cmd.Parameters.AddWithValue("@Terms", terms.Checked);
                     cmd.Parameters.AddWithValue("@Male", CheckMale.Checked);
                     cmd.Parameters.AddWithValue("@Female", ChechFemale.Checked);
+                    cmd.Parameters.AddWithValue("@Age", currentage.ToString());
 
 
 

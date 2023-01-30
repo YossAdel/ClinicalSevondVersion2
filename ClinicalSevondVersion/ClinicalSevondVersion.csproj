@@ -69,6 +69,36 @@
     <Compile Include="AddAppointment.Designer.cs">
       <DependentUpon>AddAppointment.cs</DependentUpon>
     </Compile>
+    <Compile Include="clinicalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicalDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicalDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicalDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicalDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicalDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicalDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicalDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicalDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clinicalDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clinicalDataSet5.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DietPlan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -251,6 +281,12 @@
     <Compile Include="SignUp.designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Trial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trial.Designer.cs">
+      <DependentUpon>Trial.cs</DependentUpon>
+    </Compile>
     <Compile Include="View.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -375,6 +411,9 @@
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Trial.resx">
+      <DependentUpon>Trial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View.resx">
       <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
@@ -384,6 +423,72 @@
     <EmbeddedResource Include="ViewDoctorSchedule.resx">
       <DependentUpon>ViewDoctorSchedule.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="clinicalDataSet.xsc">
+      <DependentUpon>clinicalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicalDataSet.xss">
+      <DependentUpon>clinicalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet1.xsc">
+      <DependentUpon>clinicalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicalDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicalDataSet1.xss">
+      <DependentUpon>clinicalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet2.xsc">
+      <DependentUpon>clinicalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicalDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicalDataSet2.xss">
+      <DependentUpon>clinicalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet3.xsc">
+      <DependentUpon>clinicalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicalDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicalDataSet3.xss">
+      <DependentUpon>clinicalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet4.xsc">
+      <DependentUpon>clinicalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicalDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicalDataSet4.xss">
+      <DependentUpon>clinicalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet5.xsc">
+      <DependentUpon>clinicalDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="clinicalDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clinicalDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clinicalDataSet5.xss">
+      <DependentUpon>clinicalDataSet5.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

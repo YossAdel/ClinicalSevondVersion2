@@ -21,6 +21,7 @@ namespace ClinicalSevondVersion
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
+            /*
             conn.Open();
             SqlCommand cmd1 = new SqlCommand("SELECT * from appointment WHERE  Date='" + dateTimePicker1.Value.Date + "'", conn);
             SqlDataAdapter da = new SqlDataAdapter(cmd1);
@@ -50,7 +51,7 @@ namespace ClinicalSevondVersion
             {
                 MessageBox.Show("No reservations for this day", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            
+            */
         }
 
         private void ViewDoctorSchedule_Load(object sender, EventArgs e)

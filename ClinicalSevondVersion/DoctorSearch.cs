@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,11 +25,6 @@ namespace ClinicalInformatics_2023
 
         }
 
-        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             conn.Open();
@@ -46,7 +42,8 @@ namespace ClinicalInformatics_2023
 
                 DataTable dt = new DataTable();
                 da.Fill(dt);
-                dataGridView1.DataSource = dt;
+                guna2DataGridView1.DataSource = dt;
+                
                 conn.Close();
 
             }
@@ -58,6 +55,16 @@ namespace ClinicalInformatics_2023
             {
                 MessageBox.Show("Does't exist", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+        }
+
+        private void DoctorSearch_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void doctorSchedule1_Load(object sender, EventArgs e)
+        {
 
         }
     }
